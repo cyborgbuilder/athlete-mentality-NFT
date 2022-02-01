@@ -1,23 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import Detail from './components/Detail';
+import Home from './components/Home';
+import ImageSlider from './components/ImageSlider'
+import BackPage from './components/BackPage';
+import RdMap from './components/RdMap';
+import FooterCm from './components/FooterCm';
+import Team from './components/Team';
+import NotJust from './components/NotJust';
+import Bussiness from './components/Bussiness';
+import TeamTwo from './components/TeamTwo';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <Detail />
+      <Bussiness /> 
+      <RdMap />
+      {/* <NotJust /> */}
+      <ImageSlider />
+      {/* <TeamTwo /> */}
+      <BackPage />
+      <FooterCm />
+      
+     
+      
+      
+   
+      
     </div>
   );
 }

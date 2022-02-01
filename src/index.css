@@ -10,4 +10,93 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
+    color: #e41f1fe0;
+}
+
+@keyframes background {
+  0%{
+    background-color: #00A2FF;
+  }
+  25%{
+    background-color: #e41f1fe0;
+  }
+  50%{
+    background-color: #00A2FF;
+  }
+  75%{
+    background-color: #e41f1fe0;
+  }
+  100%{
+    background-color: #00A2FF;
+  }
+}
+
+
+@keyframes logoAnime {
+  0%{
+    top: 0;
+    right: 0;
+  }
+  5%{
+    right: 600px;
+  }
+  10%{
+    right: -600px;
+  }
+  15%{
+    right: 600px;
+  }
+  20%{
+    top: 40%;;
+    right: -600px;
+  }
+  25%{
+    
+    right: 600px;
+  }
+  30%{
+    right: -600px;
+  }
+  35%{
+    right: 600px;
+  }
+  40%{
+    right: -600px;
+  }
+  45%{
+    right: 600px;
+  }
+  50%{
+    top: 90%;
+    right: -600px;
+  }
+  55%{
+    right: 600px;
+  }
+  65%{
+    right: -600px;
+  }
+  70%{
+    right: 600px;
+  }
+  75%{
+    right: -600px;
+  }
+  80%{
+    right: 600px;
+  }
+  85%{
+    right: -600px;
+  }
+  90%{
+    right: 600px;
+  }
+  95%{
+    right: -600px;
+  }
+  100%{
+    top: 0;
+    right: 600px;
+  }
 }
